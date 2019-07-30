@@ -1,3 +1,86 @@
-body{
+.navLogo{
+    height: 150%;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    bottom: 0;
+}
+
+.fullFooterLogo{
+    height:40px;
+}
+
+.fa-angle-up{
+    background-color: #40e0d0;
+    color: white;
+    padding: 5px;
+}
+.footerLogo{
+    height:70px;
+}
+
+
+.town{
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+      z-index: -1;
+}
+
+.cave{
     
+}
+
+.vietnam{
+    
+}
+
+.nav-bar{
+    background-color:#00000042;
+}
+.navbar-default {
+    background-color:#56515117;
+    border-color: #56515117;
+}
+.navbar {
+    background-image: none;
+}
+
+.sectionOne{
+    z-index:0;
+}
+@media (min-width:576px) {
+
+    .sectionOne {
+        width:60%;
+        margin-left: 20%
+    }
+}
+
+.outerCard{
+    background-color: #0000004d;
+    padding:10px;
+}
+.innerCard{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.title{
+    color:#086d48;
+    font-weight: bold;
+}
+
+.fa-angle-right{
+    background-color: #40e0d0;
+    color: white;
+    border-radius: 50%;    
+    width: 25px;
+    height:25px;
+    position: absolute;
+    margin-left: 20px;
+    padding-left: 2px;
+    padding-bottom: 5px;
 }
