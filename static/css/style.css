@@ -84,3 +84,40 @@ footer{
     padding-left: 2px;
     padding-bottom: 5px;
 }
+
+h3{
+    color: black;
+}
+
+h5{
+    color:black;
+}
+
+.fa-angle-down{
+    color: #40e0d0;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.sectionThree{
+    color: black;
+    width:600px;
+}
+
+.sectionThreeTitle{
+    color: black;
+    font-weight:bold;
+    
+}
+.sectionThreeArrow{
+    text-align: center;
+    padding-left: 0;
+}
+
+img{
+    position: absolute;
+    z-index:-1;
+    width:100%;
+}
