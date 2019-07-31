@@ -70,6 +70,9 @@ footer{
     color: white;
     padding: 5px;
 }
+.fa-angle-up:hover{
+    transform: scale(1.3);
+}
 .footerLogo{
     height:70px;
     position: inherit;
@@ -279,11 +282,17 @@ ul.tearDropList > li::before{
     background-color:#40e0d0;
     float:right;
     padding:14px;
+    padding-left:28px;
+    padding-right:25px;
     bottom:0;
     margin-right:0;
     margin-left:5px;
     font-size: 30px;
     font-weight:bolder;
+}
+
+.next:hover {
+    cursor: pointer;
 }
 
 
@@ -292,6 +301,8 @@ ul.tearDropList > li::before{
     background-color:#40e0d0;
     float:right;
     padding:14px;
+    padding-left:25px;
+    padding-right:28px;
     bottom:0;
     margin-right:0;
     margin-left:5px;
@@ -299,6 +310,13 @@ ul.tearDropList > li::before{
     font-weight:bolder;
 }
 
+.prev:hover {
+    cursor: pointer;
+}
+
+.right:hover{
+    transform: scale(1.3);
+}
 
 
 
@@ -331,6 +349,9 @@ ul.tearDropList > li::before{
     background-color:#00000000;
     margin-top: 0px;
 }
+    .nav-width{
+        width:60%;
+    }
 }
 
 
