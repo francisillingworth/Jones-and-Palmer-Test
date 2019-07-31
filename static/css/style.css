@@ -290,7 +290,7 @@ ul.tearDropList>li::before {
     color: white;
     background-color: #7ed2c9;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     padding-left: 24px;
     padding-right: 21px;
     bottom: 0;
@@ -310,7 +310,7 @@ ul.tearDropList>li::before {
     background-color: #7ed2c9;
     margin-left: 100%;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     padding-left: 21px;
     padding-right: 24px;
     bottom: 0;
@@ -333,6 +333,7 @@ ul.tearDropList>li::before {
     width: 80%;
     background-color: #ffffffd1;
     margin-right:20%
+    
     
 }
 
