@@ -29,14 +29,7 @@ footer{
 }
 
 
-.borderFooterLink{
-    border-left-color:black;
-    border-left-style:solid;
-    border-left-width:1px;
-    border-right-color:black;
-    border-right-style:solid;
-    border-right-width:1px;
-}
+
 
 .fullFooterLogo{
     height:40px;
@@ -61,6 +54,7 @@ footer{
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
       z-index: -1;
       top: 0;
+      width:100%;
       
 }
 
@@ -167,6 +161,7 @@ h5{
 .sectionThreeArrow{
     text-align: center;
     padding-left: 0;
+    
 }
 
 
@@ -232,5 +227,13 @@ img{
     .sectionThree{
     width:40%;
     padding:70px;
+}
+    .borderFooterLink{
+    border-left-color:black;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:black;
+    border-right-style:solid;
+    border-right-width:1px;
 }
 }
