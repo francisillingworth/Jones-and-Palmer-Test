@@ -224,7 +224,6 @@ ul.tearDropList>li::before {
 
 
 
-
 /*-------------------------------------------------------------section 3*/
 
 .section3 {
@@ -290,7 +289,6 @@ ul.tearDropList>li::before {
 .next {
     color: white;
     background-color: #7ed2c9;
-    float: right;
     padding-top: 10px;
     padding-bottom: 0px;
     padding-left: 24px;
@@ -310,7 +308,7 @@ ul.tearDropList>li::before {
 .prev {
     color: white;
     background-color: #7ed2c9;
-    float: right;
+    margin-left: 100%;
     padding-top: 10px;
     padding-bottom: 0px;
     padding-left: 21px;
@@ -330,6 +328,13 @@ ul.tearDropList>li::before {
     transform: scale(1.3);
 }
 
+.carouselButtons{
+    color: black;
+    width: 80%;
+    background-color: #ffffffd1;
+    margin-right:20%
+    
+}
 
 
 
@@ -348,6 +353,11 @@ ul.tearDropList>li::before {
     .sectionThree {
         width: 60%;
         padding: 70px;
+    }
+    .carouselButtons{
+    width: 60%;
+    padding-bottom: 9px;
+    margin-right:40%;
     }
     .next {
         padding: 14px;
@@ -384,6 +394,11 @@ ul.tearDropList>li::before {
     .sectionThree {
         width: 40%;
         padding: 70px;
+    }
+    .carouselButtons{
+    width: 40%;
+    padding-bottom: 9px;
+    margin-right:60%;
     }
     .borderFooterLink {
         border-left-color: black;
