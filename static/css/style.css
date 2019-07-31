@@ -1,15 +1,47 @@
 .navLogo{
-    height: 150%;
+    height: 20px;
+    width:20px;
+    z-index: 1;
+}
+
+.navbar-brand{
+    margin-left: 20%;
+    width:100px;
+    
 }
 
 footer{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
     text-align: center;
     bottom: 0;
+    background-color: white;
+   
+}
+
+.footer{
+    margin-right:0;
+}
+
+.footerLinks{
+    color:black;
+    
+}
+
+
+.borderFooterLink{
+    border-left-color:black;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:black;
+    border-right-style:solid;
+    border-right-width:1px;
 }
 
 .fullFooterLogo{
     height:40px;
+    position: inherit;
+    margin-top:20px;
 }
 
 .fa-angle-up{
@@ -19,16 +51,22 @@ footer{
 }
 .footerLogo{
     height:70px;
+    position: inherit;
+    z-index: 1;
 }
 
 
-.town{
+.clouds{
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
       z-index: -1;
+      top: 0;
+      
 }
 
 .cave{
+    width: 100%;
+    height:auto;
     
 }
 
@@ -45,18 +83,22 @@ footer{
 }
 .navbar {
     background-image: none;
+    position: absolute;
+    top: 0;
+    width:100%;
 }
+.section1{
+    background-image:url('');
+    background-size: cover
+    
+}
+
 
 .sectionOne{
     z-index:0;
+    margin-top: 200px;
 }
-@media (min-width:576px) {
 
-    .sectionOne {
-        width:60%;
-        margin-left: 20%
-    }
-}
 
 .outerCard{
     background-color: #0000004d;
@@ -66,6 +108,7 @@ footer{
     border-color: white;
     border-width: 1px;
     border-style: solid;
+    height: 430px;
 }
 
 .title{
@@ -83,6 +126,7 @@ footer{
     margin-left: 20px;
     padding-left: 2px;
     padding-bottom: 5px;
+    font-size: 22px;
 }
 
 h3{
@@ -100,15 +144,24 @@ h5{
     margin-bottom: 30px;
 }
 
+.section3{
+    background-image: url("https://thenorthernboy.com/wp-content/uploads/2019/03/IMG_9861-1024x1024.jpg");
+    background-size: cover;
+    background-position: center
+}
 
 .sectionThree{
     color: black;
-    width:600px;
+    width:80%;
+    background-color: #ffffffd1;
+    padding:50px;
+    
 }
 
 .sectionThreeTitle{
     color: black;
     font-weight:bold;
+    margin-top: 0
     
 }
 .sectionThreeArrow{
@@ -116,8 +169,68 @@ h5{
     padding-left: 0;
 }
 
+
+.sectionThreeAssetPortfolio{
+    border-top-style:solid;
+    border-top-width:2px;
+    border-top-color:black;
+    width:70%;
+}
+
 img{
     position: absolute;
     z-index:-1;
-    width:100%;
+    
+}
+
+.images{
+    
+    
+}
+
+
+.section2{
+    background-image: url("https://i.pinimg.com/originals/e1/67/6c/e1676c77726037e0571d65dfa1e717c7.jpg");
+    background-size: cover
+}
+
+.sectionTwo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.cardText{
+    color: white
+}
+
+.test{
+    background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/7614/production/_105482203__105172250_gettyimages-857294664.jpg");
+    height:100px;
+    width: 100px
+}
+
+
+@media (min-width:576px) {
+
+    .sectionOne {
+        width:60%;
+        margin-left: 20%;
+        margin-top:300px;
+    }
+    img{
+        width:100%;
+    }
+    .sectionThree{
+    width:60%;
+    padding:70px;
+    
+    
+}
+}
+
+@media (min-width:992px) {
+    .sectionThree{
+    width:40%;
+    padding:70px;
+}
 }

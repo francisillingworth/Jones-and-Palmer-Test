@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-masthead navbar-default">
+    <nav class="navbar navbar-masthead navbar-default" id="nav">
         <div class="nav-bar">
             <div class="container">
                 <div class="navbar-header">
@@ -24,14 +24,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                    <a class="navbar-brand" href="/"><img class="navLogo" src ="media/logo-small-white.svg"></a>
+                    <a href="/"><img class="navLogo" src ="media/logo-small-white.svg"></a>
                     <a class="navbar-brand" href="/">Company Name</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Section 1</a></li>
-                        <li><a href="#">Section 2</a></li>
+                        <li><a href="error.html">Section 1</a></li>
+                        <li><a href="error.html">Section 2</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,8 +40,8 @@
 
 
     <!-- section 1 -->
-    <div>
-        <img class="town" src="media/town.jpg">
+    <div class="section1">
+<img class="clouds images" src="media/clouds.jpg">
         <div class="sectionOne text-center">
             <h1 class="title">Company Name</h1>
             <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
@@ -57,14 +57,14 @@
 
 
     <!-- section 2 -->
-    <div>
-        <img class="cave" src="media/cave.jpg">
-        <div class="container">
-            <div class="row">
+    <div class= "section2">
+        
+        <div class="container cards">
+            <div class="row sectionTwo cardText">
                 <div class="col-xs-12 col-sm-4">
                     <div class="outerCard">
                         <div class="innerCard">
-                            <h2 class>Heading 2</h2>
+                            <h2 class="cardText">Heading 2</h2>
                             <ul>
                                 <li>Bullet 1</li>
                                 <br>
@@ -78,7 +78,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="outerCard">
                         <div class="innerCard">
-                            <h2>Heading 2</h2>
+                            <h2 class="cardText">Heading 2</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
                                 lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum.</p>
                         </div>
@@ -87,7 +87,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="outerCard">
                         <div class="innerCard">
-                            <h2>Heading 2</h2>
+                            <h2 class="cardText">Heading 2</h2>
                             <ul>
                                 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore .
                                 </li>
@@ -102,51 +102,54 @@
             </div>
         </div>
     </div>
-
+    
+   
 
 
     <!-- section 3 -->
-    <div>
-        <div>
-            <img class="vietnam" src="media/vietnam.jpg">
+    <div class="section3">
+        <div >
+            <br><br><br>
             <div class="sectionThree">
-                <h1 class="sectionThreeTitle">Heading<br>Level<br>One</h1>
+                <h1 class="sectionThreeTitle">Heading<br>Level<br>One</h1><br>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br><br> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
                     nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
                     praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. .
                 </p>
+            
+            <div class= "sectionThreeAssetPortfolio">
+                <h5><strong>Our Asset Portfolio</strong><i class="fa fa-angle-right sectionThreeArrow" aria-hidden="true"></i></h3>
             </div>
-            <div>
-                <h3>Our Asset Portfolio<i class="fa fa-angle-right sectionThreeArrow" aria-hidden="true"></i></h3>
             </div>
         </div>
+        <br><br><br>
     </div>
-
-
-
+    
 </body>
 <footer>
-    <div class="row">
+    <div class="row footer">
         <div class="col-xs-12 col-sm-6">
             <img class="footerLogo" src="media/logo-small-black.svg">
             <p>&copy; 2019 Jones and Palmer</p>
         </div>
         <div class="col-xs-12 col-sm-6">
             <div class="row no-gutters">
-                <div class="col-xs-2 col-xs-offset-2">
-                    <a href="#">Accessibility</a>
+                <div class="col-xs-2 col-xs-offset-2 ">
+                    <a class="footerLinks" href="error.html">Accessibility</a>
+                </div>
+                <div class="col-xs-2 borderFooterLink">
+                    <a class="footerLinks" href="error.html">Privacy Policy</a>
+                </div>
+                <div class="col-xs-2 ">
+                    <a class="footerLinks" href="error.html">Sitemap</a>
                 </div>
                 <div class="col-xs-2">
-                    <a href="#">Privacy Policy</a>
-                </div>
-                <div class="col-xs-2">
-                    <a href="#">Sitemap</a>
-                </div>
-                <div class="col-xs-2">
-                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    <a class="footerLinks" href="error.html"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
                 </div>
             </div>
+            <div class="no-gutters">
             <img class="fullFooterLogo" src="media/logo-full-black.svg">
+            </div>
         </div>
     </div>
 </footer>
