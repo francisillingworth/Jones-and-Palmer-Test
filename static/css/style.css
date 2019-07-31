@@ -1,3 +1,4 @@
+/*----------------------------------------------------------------------------nav*/
 .navLogo{
     height: 50px;
     width: 50px;;
@@ -12,12 +13,30 @@
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #ffffff00;
+    background-color:#00000042;
+    margin-top: 10px;
 }
 
 .nav-bar{
     height:70px;
     padding-top: 10px
 }
+
+.nav-bar{
+    background-color:#00000042;
+}
+.navbar-default {
+    background-color:#56515117;
+    border-color: #56515117;
+}
+.navbar {
+    background-image: none;
+    position: absolute;
+    top: 0;
+    width:100%;
+}
+
+/*-------------------------------------------------footer*/
 
 footer{
     margin-top: 20px;
@@ -58,6 +77,7 @@ footer{
 }
 
 
+/*--------------------------------------------------media*/
 .clouds{
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
@@ -67,34 +87,17 @@ footer{
       
 }
 
-.cave{
-    width: 100%;
-    height:auto;
-    
-}
-
-.vietnam{
-    
-}
-
-.nav-bar{
-    background-color:#00000042;
-}
-.navbar-default {
-    background-color:#56515117;
-    border-color: #56515117;
-}
-.navbar {
-    background-image: none;
+img{
     position: absolute;
-    top: 0;
-    width:100%;
-}
-.section1{
-    background-image:url('');
-    background-size: cover
+    z-index:-1;
     
 }
+
+
+/*-------------------------------------------------Section 1*/
+
+
+
 
 
 .sectionOne{
@@ -103,23 +106,12 @@ footer{
 }
 
 
-.outerCard{
-    background-color: #0000004d;
-    padding:10px;
-}
-.innerCard{
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    height: 430px;
-}
-
 .title{
     color:#086d48;
     font-weight: bold;
 }
 
-.fa-angle-right{
+.right{
     background-color: #40e0d0;
     color: white;
     border-radius: 50%;    
@@ -131,6 +123,8 @@ footer{
     padding-bottom: 5px;
     font-size: 22px;
 }
+
+
 
 h3{
     color: black;
@@ -147,10 +141,87 @@ h5{
     margin-bottom: 30px;
 }
 
+
+
+/*-------------------------------------------------------section 2*/
+
+
+
+
+.outerCard{
+    background-color: #0000004d;
+    padding:10px;
+    margin-top:20px;
+    max-width:400px;
+}
+.innerCard{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 430px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+ul.tearDropList > li::before{
+    content:'\f043 ';
+    font-family: FontAwesome;
+    margin-right:10px;
+    margin-left: -18px;
+    color:#40e0d0;
+}
+
+
+
+.section2{
+    background-image: url("https://i.pinimg.com/originals/e1/67/6c/e1676c77726037e0571d65dfa1e717c7.jpg");
+    background-size: cover;
+    background-position: center center
+    
+}
+
+.sectionTwo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.cardText{
+    color: white
+}
+
+.sectionTwoBottom{
+    width:100%;
+    border-top-color:white;
+    border-top-style:solid;
+    border-top-width:2px;
+    margin-bottom:50px;
+    
+}
+
+
+.sectionTwoBottomText{
+   display:none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------section 3*/
+
+
 .section3{
     background-image: url("https://thenorthernboy.com/wp-content/uploads/2019/03/IMG_9861-1024x1024.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center center
 }
 
 .sectionThree{
@@ -181,37 +252,58 @@ h5{
     width:70%;
 }
 
-img{
-    position: absolute;
-    z-index:-1;
-    
-}
-
-.images{
-    
-    
-}
 
 
-.section2{
-    background-image: url("https://i.pinimg.com/originals/e1/67/6c/e1676c77726037e0571d65dfa1e717c7.jpg");
-    background-size: cover
+.mySlides {
+  display: none;
 }
 
-.sectionTwo{
-    margin-top: 70px;
-    margin-bottom: 70px;
+.slide1{
+    display:inline;
 }
 
-.cardText{
-    color: white
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s ;
+  animation-name: fade;
+  animation-duration: 999999999s;
 }
 
-.test{
-    background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/7614/production/_105482203__105172250_gettyimages-857294664.jpg");
-    height:100px;
-    width: 100px
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
 }
+
+.next{
+    color:white;
+    background-color:#40e0d0;
+    float:right;
+    padding:14px;
+    bottom:0;
+    margin-right:0;
+    margin-left:5px;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+
+.prev{
+    color:white;
+    background-color:#40e0d0;
+    float:right;
+    padding:14px;
+    bottom:0;
+    margin-right:0;
+    margin-left:5px;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+
+
+
+
+/*------------------------------------------Media querys*/
 
 
 @media (min-width:576px) {
@@ -232,6 +324,16 @@ img{
 }
 }
 
+
+@media (min-width:768px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ffffff00;
+    background-color:#00000000;
+    margin-top: 0px;
+}
+}
+
+
 @media (min-width:992px) {
     .sectionThree{
     width:40%;
@@ -245,12 +347,13 @@ img{
     border-right-style:solid;
     border-right-width:1px;
 }
+   .sectionTwoBottomText{
+   color:white;
+   background-color:#40e0d0;
+   padding:25px;
+   font-size:20px;
+   display:inline;
+   
+}
 }
 
-ul.tearDropList > li::before{
-    content:'\f043 ';
-    font-family: FontAwesome;
-    margin-right:10px;
-    margin-left: -18px;
-    color:#40e0d0;
-}
