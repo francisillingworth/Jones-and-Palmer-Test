@@ -1,6 +1,6 @@
 # Jones and Palmer Test
 
-This simple web application was built to replicate a the challenge example as best possible. This has been done almost to the pixel with a few added extras thrown in such as a card carosel, an error page, and multiple other interactive elements.  
+This simple web application was built to replicate the challenge example as best possible. This has been done almost to the pixel with a few added extras thrown in such as a card carosel, an error page, and multiple other interactive elements.  
 
 
 
@@ -17,6 +17,7 @@ with 3 cards as I felt the the example provided suggested that thats what would 
 
 All interactive elements on the page will have some resopnse when interacted with (links, navigation buttons on carousel etc).
 
+Regarding fonts I used the WhatTheFont! application to match the fonts but the exact font was too expensive to purchase. For this reason I used Ariel as I knew it worked across multiple browsers.
 
 
 
@@ -25,7 +26,7 @@ All interactive elements on the page will have some resopnse when interacted wit
 
 1. HTML5
 2. CSS3
-3. Bootstrap v.4.3.1
+3. Bootstrap
 4. Javascript
 5. Jquery
 
@@ -35,7 +36,7 @@ All interactive elements on the page will have some resopnse when interacted wit
 The site features:
 
 1. The bootstrap grid system layout.
-2. A Card carousel made using jQuery
+2. A card carousel made using jQuery
 
 
 ## Deployment

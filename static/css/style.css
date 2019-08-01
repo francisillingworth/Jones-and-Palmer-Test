@@ -104,6 +104,7 @@ img {
 
 /*-------------------------------------------------Section 1*/
 
+
 .sectionOne {
     z-index: 0;
     margin-top: 200px;
@@ -176,6 +177,10 @@ ul.tearDropList>li::before {
     margin-right: 10px;
     margin-left: -18px;
     color: #35b5a8;
+}
+
+.tearDropList{
+    padding-left: 20px
 }
 
 
